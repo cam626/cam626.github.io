@@ -1,0 +1,66 @@
+
+#greeting{
+  position:absolute;
+  width:30%;
+  left:35%;
+  top:20%;
+}
+
+#greetingTitle{
+  float:left;
+  font-weight:bold;
+  font-size:3em;
+}
+
+#slogan{
+  float:right;
+  color:#666;
+  clear:both;
+  margin-bottom: 20px;
+}
+
+#username, #password{
+  width:calc(100% - 14px);
+  padding:5px;
+  padding-left:8px;
+  margin-bottom:30px;
+  border:1px solid #8c8c8c;
+  border-left:3px solid #5c9aff;
+  border-top-right-radius:4px;
+  border-bottom-right-radius: 4px;
+  background:#fff;
+  color:black;
+  font-size:2em;
+}
+
+#username:focus, #password:focus{
+  outline:none;
+  border-left:6px solid #5c9aff;
+  padding-left:5px;
+  width:calc(100% - 14px);
+}
+
+#loginButton{
+  padding:10px;
+  border:none;
+  border-left:1px solid black;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background:#5c9aff;
+  color:white;
+  font-size:1.5em;
+  cursor:pointer;
+}
+
+#loginButton:hover{
+  color:black;
+  border-left:3px solid black;
+  padding-left:8px;
+}
+
+#loginButton:focus{
+  color:black;
+  outline:none;
+  border-left:3px solid black;
+  padding-left:8px;
+}

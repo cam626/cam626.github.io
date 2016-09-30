@@ -1,0 +1,59 @@
+#header{
+  background: #5c9aff;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:75px;
+  color:#000;
+}
+
+#title{
+  float:left;
+  height:100%;
+  margin-left:5%;
+  font-weight: bold;
+  color:black;
+  line-height:75px;
+  font-size:25px;
+}
+
+
+#login, #register, #logout{
+  position:absolute;
+  height:60%;
+  top:20%;
+  border:1px solid black;
+  border-radius:4px;
+  cursor:pointer;
+  transition: 250ms;
+  color:#fff;
+  background:black;
+  right:0;
+  width:100px;
+  line-height:calc(0.6 * 75px);
+  text-align:center;
+}
+
+#login:hover, #register:hover, #logout:hover{
+  background:rgba(0, 0, 0, 0.5);
+}
+
+#login{
+  margin-right: 130px;
+}
+
+#register, #logout{
+  margin-right: 20px;
+}
+
+#username_display{
+  position:absolute;
+  height:60%;
+  top:20%;
+  color:#000;
+  right:0;
+  line-height:calc(0.6 * 75px);
+  text-align:center;
+  margin-right: 130px;
+}
